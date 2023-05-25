@@ -22,21 +22,21 @@
               <router-link to="/home" class="nav-link">Accueil</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/add" class="nav-link">Ajouter une voiture</router-link>
+              <router-link to="/add" class="nav-link">Voiture</router-link>
             </li>
             <li class="nav-item">
               <router-link to="/brand" class="nav-link"
-                >Ajouter une marque</router-link
+                >Marque</router-link
               >
             </li>
             <li class="nav-item">
               <router-link to="/model" class="nav-link"
-                >Ajouter un modele</router-link
+                >Modele</router-link
               >
             </li>
             <li class="nav-item">
               <router-link to="/category" class="nav-link"
-                >Ajouter une categorie</router-link
+                >Categorie</router-link
               >
             </li>
           </ul>

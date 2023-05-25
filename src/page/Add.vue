@@ -51,9 +51,11 @@
           <label for="inputAnnee" class="form-label">Année</label>
           <input
             v-model="annee"
-            type="text"
+            type="date"
             class="form-control"
             id="inputAnnee"
+           minlength="3"
+           maxlength="4"
             required
           />
         </div>
@@ -119,7 +121,7 @@ async function submitForm() {
     marque.value == "" ||
     modele.value == "" ||
     categorie.value == "" ||
-    annee.value == ""
+    annee.value < 1000|| annee.value >= 3000
   ) {
     alert("Tous les champs sont obligatoires");
     return;
